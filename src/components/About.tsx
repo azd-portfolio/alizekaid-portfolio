@@ -57,7 +57,7 @@ export function About() {
             <div className="relative">
               <div className="absolute inset-0 bg-blue-600 rounded-2xl transform rotate-3"></div>
               <img
-                src="/src/assets/azd.jpeg"
+                src={`${import.meta.env.BASE_URL}assets/azd.jpeg`}
                 alt="About Ali Zekai Deveci"
                 className="relative rounded-2xl shadow-xl w-full object-cover aspect-square"
               />

@@ -81,7 +81,7 @@ export function Hero() {
               <div className="absolute inset-0 bg-blue-600 rounded-full blur-3xl opacity-20"></div>
               <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-8 border-white shadow-2xl">
                 <img
-                  src="/src/assets/Ekran Resmi 2025-11-16 22.19.30.png"
+                  src={`${import.meta.env.BASE_URL}assets/Ekran Resmi 2025-11-16 22.19.30.png`}
                   alt="Ali Zekai Deveci"
                   className="w-full h-full object-cover"
                 />

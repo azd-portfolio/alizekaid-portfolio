@@ -127,7 +127,7 @@ export function Contact() {
                 qualifications.
               </p>
               <a
-                href="/src/assets/CV_ali_zekai_deveci.pdf"
+                href={`${import.meta.env.BASE_URL}assets/CV_ali_zekai_deveci.pdf`}
                 download="CV_ali_zekai_deveci.pdf"
                 className="block w-full"
               >
